@@ -15,7 +15,6 @@ class CollectionViewCell: UICollectionViewCell {
         imageView.clipsToBounds = true
         imageView.isUserInteractionEnabled = true
         imageView.contentMode = .scaleAspectFill
-        imageView.layer.cornerRadius = 20
         return imageView
     }()
     
